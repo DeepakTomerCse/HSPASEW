@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { C003Component } from './Body/c003/c003.component';
 import { C002Component } from './Body/c002/c002.component';
 import { C001Component } from './Body/c001/c001.component';
+import { H1Component } from './header/h1/h1.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     C003Component,
     C002Component,
-    C001Component
+    C001Component,
+    H1Component
   ],
   imports: [
     BrowserModule,
